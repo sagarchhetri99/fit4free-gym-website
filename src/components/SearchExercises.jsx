@@ -50,8 +50,8 @@ export default function SearchExercises({
         mb="50px"
         textAlign="center"
       >
-        Exercises You <br />
-        Should Know
+        Search Any Exercises or <br />
+        Muscle Group You Want To Target
       </Typography>
       <Box position="relative" mb="72px">
         <TextField
@@ -63,7 +63,6 @@ export default function SearchExercises({
             },
             width: { lg: "800px", xs: "350px" },
             backgroundColor: "#fff",
-            borderRadius: "40px",
           }}
           height="76px"
           value={search}
