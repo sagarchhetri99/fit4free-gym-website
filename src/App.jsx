@@ -1,21 +1,22 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
+import { Box } from "@mui/material";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-import WorkoutDetail from "./pages/WorkoutDetail";
+// import WorkoutDetail from "./pages/WorkoutDetail";
 import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div className="app-container">
+    <Box>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/workout/:id" element={<WorkoutDetail />} />
+        {/* <Route path="/exercise/:id" element={<WorkoutDetail />} /> */}
       </Routes>
       <Footer />
-    </div>
+    </Box>
   );
 };
 

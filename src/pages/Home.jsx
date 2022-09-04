@@ -17,8 +17,8 @@ export default function Home() {
         setBodyPart={setBodyPart}
       />
       <Exercises
-        exercises={exercises}
         setExercises={setExercises}
+        exercises={exercises}
         bodyPart={bodyPart}
       />
     </Box>
